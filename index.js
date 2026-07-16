@@ -6,6 +6,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.status(200).json({ message: 'CI/CD funcionando correctamente' , 
+    nombre: 'Paul Moreno',
     servicio:'API Express desplegada en vercel'});
 });
 
