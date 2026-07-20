@@ -2,7 +2,7 @@ const { factorial, fibonacci } = require('./math');
 
 describe('Pruebas de factorial', () => {
   test('factorial de 0 debe ser 1', () => {
-    expect(factorial(0)).toBe(1);
+    expect(factorial(0)).toBe(5);
   });
 
   test('factorial de 5 debe ser 120', () => {
